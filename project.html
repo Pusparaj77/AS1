@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project page</title>
+</head>
+<style>
+  body{
+    display: grid;
+    grid-template-columns:20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer"
+    ;
+}
+header{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+nav{
+    background-color: yellow;
+    grid-area: nav;
+}
+main{
+    background-color: darkblue;
+    color: white;
+    grid-area: main;
+}
+aside{
+    background-color: lightgreen;
+    grid-area: aside;
+}
+footer{
+    background-color: darkgreen;
+    color: white;
+    grid-area: footer;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+</style>
+
+</head>
+<body>
+<header>
+    <h1>Welcome To MY Protfolio...</h1>
+</header> 
+<nav>
+    <ul>
+        <li><a href="Week1">Projects
+            <img src="Screenshot (2).png">  
+        </a></li><img src="">
+        <li><a href="Week2">Contact
+            <img src="Screenshot (3).png">
+        </a></li>
+        <li><a href="Week3">Video Demo
+                <img src="Screenshot (4).png">           
+        </a></li>
+        <li><a href="Week4">Site Report
+            <img src="">
+        </a></li>
+    </ul>
+</nav> 
+<main>
+    <h1>Blogs</h1>
+</main> 
+<aside>
+    <p>aside</p>
+</aside> 
+<footer>
+    <p>Scroll and search me agian!</p>
+</footer>
+</body>
+</html>
